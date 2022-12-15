@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    margin: 2px;
+}
+header h1{
+    color:#FFFF;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Iguana{
+    width: 100%;
+    
+}
+main{
+    padding: 0.5em;
+    text-align:justify;
+    display: flex ;
+    
+}
+.texto1{
+    margin: 2em;
+    margin-left: 4em;
+    width: 55%;
+    color: #FFFF;
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.iguana1{
+    width: 20em;
+    margin: 2em;
+    margin-left: 2em;
+    display: inline-block;
+
+}
+.features{
+    background-color: gray;
+    text-align: center;
+    margin: 4em 0;
+    padding: 1em;
+    color: rgb(17, 16, 16);
+    display: flow-root;
+    padding-left: 5em;
+}
+section h2{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.features i{
+    display: block;
+    padding: 0.5em;
+    font-size: 3em;
+    
+}
+.feature{
+    width: 30%;
+    padding: 1%;
+    float: left;
+    font-size: 1.5em;
+}
+.gallery{
+    padding: 50px 100px;
+    margin-left: 2em;
+    margin-top: -2em;
+    
+}
+.photos{
+    display: inline-block;
+    width: 30%;
+    margin: 0.5%;
+    padding: 0.5%;
+    
+}
+.photos img{
+    width: 400px;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
